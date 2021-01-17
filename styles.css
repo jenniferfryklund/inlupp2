@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Utilities */
+
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #626262;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* h1 {
+    line-height: 1.2;
+    margin: 10px 0;
+} */
+
+p {
+    margin: 10px 0;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} 
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn{
+    text-decoration: none;
+}
+
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba (0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* .padding {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+} */
+
+/* margin */
+.my-1 {
+    margin: 1rem 0;
+}
+.my-2 {
+    margin: 1.5rem 0;
+}
+.my-3 {
+    margin: 2rem 0;
+}
+.my-4 {
+    margin: 3rem 0;
+}
+.my-5 {
+    margin: 4rem 0;
+}
+
+
+
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 1.5rem;
+}
+.m-3 {
+    margin: 2rem;
+}
+.m-4 {
+    margin: 3rem;
+}
+.m-5 {
+    margin: 4rem;
+}
+
+/* Padding */
+
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 1.5rem 0;
+}
+.py-3 {
+    padding: 2rem 0;
+}
+.py-4 {
+    padding: 3rem 0;
+}
+.py-5 {
+    padding: 4rem 0;
+}
+
+
+
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 1.5rem;
+}
+.p-3 {
+    padding: 2rem;
+}
+.p-4 {
+    padding: 3rem;
+}
+.p-5 {
+    padding: 4rem;
+}
+
+
+
+
+/* Navbar */
+#navbar .bg{
+    background-image: url('img/Rectangle\ 1914.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position-y: -1000px;
+    background-position-x: -100px;
+    padding-bottom:40rem;
+    /* position: absolute; */
+} 
+
+#navbar .navbar ul {
+    display: flex;
+}
+#navbar .navbar ul .btn-orange {
+    color: #fff;
+    background: #FFBB00 ;
+    /* text-decoration: none; */
+    border-radius: 10px;
+    margin: 0 20px;
+} 
+
+#navbar .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+#navbar .navbar a:hover{
+    color: #FFBB00;
+    text-decoration: none;
+}
+
+#navbar .navbar li a:hover {
+    border-bottom: 2px #FFBB00 solid;
+}
+
+#navbar .navbar {
+    justify-content: space-between;
+}
+
+
+
+/* Showcase */
+#showcase{
+    height: 1000px;
+    color: #333;
+    position: relative;
+} 
+    
+#showcase h1{
+    font-size: 40px;
+    color:#333 ;
+}
+
+#showcase p{
+    margin: 20px 0;
+}
+
+#showcase .grid {
+    grid-template-columns:45% 45%;
+    gap: 50px;
+}
+
+#showcase .mobile img {
+    height: 500px;
+    position: relative; 
+    margin-bottom: 30px;
+    /* margin-top: 50px; */
+} 
+
+#showcase .btn-transparent {
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    border:1px solid white;
+    border-radius: 10px;
+    margin: 10px 10px;
+} 
+#showcase .btn-transparent:hover{
+    color: #333;
+}
+
+
+
+/*  Ec Utbildning*/
+#ec-logo .nav .container .grid{
+    display: flex;
+    background: pink;
+    margin-top: 50px;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-between; 
+} 
+
+
+
+
+
+
+
+/* About Us */
+
+#about-us{
+ margin-top: 150px;
+}
+
+
+/* Features */
+
+#features .grid{
+    
+}
+
+
+#features {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+.mobile-rings .grid .grid-4{
+    margin-top: auto;
+    
+}
+
+
+
+
+
+
+/* Applications Statistics */
+
+.stats {
+    padding-top: 100px;
+}
+
+.stats-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.stats .grid h3{
+    color: #3096FE;
+    padding-top: 20px;
+    /* font-size: 35px; */
+}
+
+.stats .grid p{
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+
+
+
+
+/* Till fomuläret */
+.contact-form {
+    position: relative;
+    top: 60px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+}
+
+
+
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+
+
+#contact-form input:focus, 
+#contact-form textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+
+
+
+
+
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    background: #3096FE;
+    color: #fff;
+    padding: 20px;
+}
+
+/* .main-footer .list a ul li{
+    text-decoration: none;
+    margin: 10px;
+
+} */
+
+/* .main-footer .list a{
+    text-decoration: none;
+    color: #fff;
+    display: auto;
+} */
+/* .main-footer .ul a{
+    display: flex;
+    justify-content: flex;
+    justify-content: space-between;
+} */
+
+
+/* .main-footer .about ul li a{
+    color:;
+} */
+
+/* .main-footer .icons a{
+    margin: 10px;
+    background-color: #5CADFE;
+    border-radius: 15px;
+    padding: 10px;
+} */
+/* .main-footer .icons :hover{
+    color: #FFBB00;
+} */
+
+
+
+/* .main-footer .container :hover{
+    color: #FFBB00;
+    text-decoration: none;
+} */
+
+
+
+
+
+.main-footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer ul a {
+    text-decoration: none;
+}
+.main-footer ul a:hover{
+    color: #FFBB00;
+}
+.main-footer .icons{
+    /* border: blue;
+    border-radius: 15px; */
+    
+}
+.main-footer .icons a:hover{
+    color: #FFBB00;
+}
+
+.main-footer a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    
+
+
+
+
+
+     
+    /* Smartphones */
+    @media only screen and (max-width: 500px) {}
+    
+
+     /* Tablet */
+     @media(min-width: 501px) and (max-width: 768px) {}
+   
+
+    /* Normal */
+    @media(min-width: 769px) and (max-width: 1200px) {}
